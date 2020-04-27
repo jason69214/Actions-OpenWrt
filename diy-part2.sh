@@ -16,4 +16,5 @@ sed -i "/timezone='CST-8'/a set system.@system[-1].zonename='Asia/Shanghai'" ./p
 sed -i 's/OpenWrt/Zhang Jinsheng AutoBuild $(date "+%Y.%m.%d") @ OpenWrt/g' package/lean/default-settings/files/zzz-default-settings
 sed -i 'system.@system[0].hostname=CF-E380AC V2' package/lean/default-settings/files/zzz-default-settings
 git clone https://github.com/tzxiaozhen88/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
+git clone https://github.com/fw876/helloworld.git package/luci-app-helloworld
 
